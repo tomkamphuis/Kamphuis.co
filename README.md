@@ -1,7 +1,7 @@
 # Kamphuis.co
 
 Statische, dependency-vrije site (HTML/CSS, geen build-stap): één pagina met
-een illustratie, zelfde opzet als tomkamphuis.nl.
+een schermvullende afbeelding, zelfde opzet als tomkamphuis.nl.
 
 ## Lokaal bekijken
 
@@ -22,12 +22,10 @@ Werkt direct op elke statische host, zonder build-stap:
 
 - `index.html` — de pagina
 - `css/styles.css` — styling (afbeelding vult het scherm)
-- `assets/family-farm.svg` — illustratie (eigen ontwerp, geïnspireerd op een boerderij-/gezinsthema)
+- `assets/KamphuisCo.png` — de foto/illustratie
 - `assets/favicon.svg` — favicon
 
 ## Afbeelding vervangen
 
-`assets/family-farm.svg` is een eigen illustratie — geen stockfoto. Wil je de
-Vecteezy-afbeelding (of een andere) gebruiken, koop dan de licentie en
-vervang het bestand (pas evt. `index.html` aan als je een `.jpg`/`.png` gebruikt
-in plaats van `.svg`).
+Zet een nieuw bestand in `assets/` en pas het `src`-attribuut van de
+`<img class="hero-image">` in `index.html` aan.
